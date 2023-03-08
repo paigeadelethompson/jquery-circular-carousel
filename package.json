@@ -1,0 +1,28 @@
+{
+  "name": "jquery-circular-carousel",
+  "version": "1.0.0",
+  "description": "A library that creates dynamic circular carousels. **Requires jQuery**. Adjustable items, dimensions, angle, durations, offsets. By default, scales non-active items to 0.5. See the [demo](http://sgb-io.github.io/jquery.circular-carousel/demo/).",
+  "main": "demo/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist/ && mkdir dist/ && cp js/jquery.circular-carousel.js dist/ && cp css/jquery.circular-carousel.css dist/",
+    "serve": "./index.js",
+    "gh-page": "rm -rf dist/ && mkdir dist/ && cp -r demo/* dist/ && cp js/* dist/js/ && cp css/* dist/css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paigeadelethompson/jquery-circular-carousel.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paigeadelethompson/jquery-circular-carousel/issues"
+  },
+  "homepage": "https://github.com/paigeadelethompson/jquery-circular-carousel#readme",
+  "dependencies": {
+    "jquery": "*"
+  },
+  "devDependencies": {
+    "express": "^4.18.2"
+  }
+}
