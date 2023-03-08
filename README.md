@@ -1,18 +1,13 @@
 # jQuery Circular Carousel
 
-A library that creates dynamic circular carousels. **Requires jQuery**. Adjustable items, dimensions, angle, durations, offsets. By default, scales non-active items to 0.5. See the [demo](http://sgb-io.github.io/jquery.circular-carousel/demo/).
+A library that creates dynamic circular carousels. **Requires jQuery**. Adjustable items, dimensions, angle, durations, offsets. By default, scales non-active items to 0.5. See the [demo](https://jquery-circular-carousel.paige.bio).
 
-![What it looks like.](https://raw.githubusercontent.com/sgb-io/jquery.circular-carousel/master/demo/screenshot.png)
-
-# Status of this project
-
-This project is no longer in active development or supported, but please feel free to use it however you wish. Patches welcome.
+![What it looks like.](https://jquery-circular-carousel.paige.bio/screenshot.png)
 
 # Browser Support 
 
-Uses CSS3 Transitions, CSS3 Transforms. Currently no polyfills or fallbacks implemented for IE9.
+Uses CSS3 Transitions, CSS3 Transforms.
 
-- IE10+
 - Chrome
 - FF
 - Safari
