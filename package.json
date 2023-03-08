@@ -1,0 +1,41 @@
+{
+  
+  "name": "jquery-circular-carousel",
+  "version": "1.0.0",
+  "description": "A jQuery plugin that creates dynamic circular carousels",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"no tests available\" && exit 0",
+    "build": "rm -rf dist/ && mkdir dist/ && cp js/jquery.circular-carousel.js dist/ && cp css/jquery.circular-carousel.css dist/",
+    "serve": "./index.js",
+    "gh-page": "rm -rf dist/ && mkdir dist/ && cp -r demo/* dist/ && cp js/* dist/js/ && cp css/* dist/css/ && cp node_modules/jquery/dist/jquery.min.js dist/js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paigeadelethompson/jquery-circular-carousel.git"
+  },
+  "author": "Sam Brown <samb@unit9.com>",
+  "contributors": [
+    {
+      "name" : "Paige Thompson",
+      "email" : "paige@paige.bio",
+      "url" : "https://paige.bio/"
+    },
+    {
+      "name" : "Sam Brown",
+      "email" : "sam@sgb.io",
+      "url" : "https://sgb.io/"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paigeadelethompson/jquery-circular-carousel/issues"
+  },
+  "homepage": "https://github.com/paigeadelethompson/jquery-circular-carousel#readme",
+  "dependencies": {
+    "jquery": "*"
+  },
+  "devDependencies": {
+    "express": "^4.18.2"
+  }
+}
