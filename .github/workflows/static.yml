@@ -30,13 +30,16 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+      - name: Build
+        run: |
+          mkdir build/ && cp -rvpt build js/ css/ && cp demo/js/* build/js && cp demo/css/* build/css && cp bower_components/jquery/jquery.min.js build/js && cp demo/index.html build/ && cp -rvp demo/img build/
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload entire repository
-          path: '.'
+          path: 'build/.'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
