@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rm -rf dist/ && mkdir dist/ && cp js/jquery.circular-carousel.js dist/ && cp css/jquery.circular-carousel.css dist/",
     "serve": "./index.js",
-    "gh-page": "rm -rf dist/ && mkdir dist/ && cp -r demo/* dist/ && cp js/* dist/js/ && cp css/* dist/css/"
+    "gh-page": "rm -rf dist/ && mkdir dist/ && cp -r demo/* dist/ && cp js/* dist/js/ && cp css/* dist/css/ && cp node_modules/jquery/dist/jquery.min.js dist/js"
   },
   "repository": {
     "type": "git",
