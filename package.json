@@ -1,7 +1,7 @@
 {
   
   "name": "jquery-circular-carousel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A jQuery plugin that creates dynamic circular carousels",
   "main": "index.js",
   "scripts": {
